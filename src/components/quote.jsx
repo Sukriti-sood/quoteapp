@@ -4,10 +4,10 @@ function Quotestr(props){
     return(
         <>
             <div className="quote-text" >
-                {props.text}
+                <b>"</b>{props.text}
             </div>
            <div className="quote-author">
-                {props.author}
+                - {props.author}
            </div>
         </>
     );
