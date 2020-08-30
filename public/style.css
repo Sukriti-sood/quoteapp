@@ -1,12 +1,18 @@
 .quote-box{
     border-radius:3px;
     position:relative;
-    margin:15% auto auto auto;
+    margin:10% auto auto auto;
     width:450px;
     padding:40px 50px;
     display:table;
     background-color:#fff;
     
+}
+.head{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 6em;
+    margin-top: 5%;
 }
 .quote-text{
     text-align:center;
@@ -68,5 +74,5 @@ body{
    
 }
 .button:hover{
-    border-radius: 5px;
+    opacity: .7;
 }
